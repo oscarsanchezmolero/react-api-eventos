@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from './components/Header';
+import CategoriasProvider from './context/CategoriasContext';
 
-// ME4J66XK73WRIWVKNX
+//
 // Pending API_KEY
 
 function App() {
   return (
-    <>
+    <CategoriasProvider>
       <Header />
-    </>
+    </CategoriasProvider>
   );
 }
 
